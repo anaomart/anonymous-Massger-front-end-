@@ -49,7 +49,7 @@ export default function SendMessage() {
         margin: '0 auto'
         ,background:'#23e7fe',
         borderRadius: '40px',
-    }}>Message Send </div>
+    }}>Message Sent</div>
 </section>
   )
 }
