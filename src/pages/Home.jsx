@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                     <h3>{user.username}</h3>
                     <div className='shareBtn'>
-                    <a href={"http://localhost:3000/send/"+user.id} className='share' style={{display:button ? 'block':'none'}}>{url+"send/"+user.id}</a>
+                    <a href={"send/"+user.id} className='share' style={{display:button ? 'block':'none'}}>{url+"send/"+user.id}</a>
                     <button onClick={()=>{setButton(!button)}}> 
                         <span><img src={icon} alt='share icon'  width={'10px'} /></span>
                         Share Profile

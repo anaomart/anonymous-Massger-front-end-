@@ -7,7 +7,7 @@ import useAuthContext from "./hooks/useAuthContext";
 import SendMessage from "./pages/SendMessage";
 import ForgotPassword from "./pages/ForgotPassword";
 import RecoverPassword from "./pages/RecoverPassword";
-import Settings from './pages/Settings'
+import Verify from './pages/Verify'
 function App() {
   const {user} = useAuthContext()
   console.log({user})
@@ -22,7 +22,7 @@ function App() {
           <Route path='/send/:id' element={ <SendMessage/>} />
           <Route path='/forgetPassword' element={ <ForgotPassword/> }/>
           <Route path='/passwordRecovery/:token' element={ <RecoverPassword/> }/>
-          {/* <Route path='/settings' element={<Settings/>} /> */}
+          <Route path='/user/verify/:token' element={<Verify/>} />
       </Routes>
       </BrowserRouter>
     </div>
