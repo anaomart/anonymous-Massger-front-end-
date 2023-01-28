@@ -2,7 +2,7 @@ import {useState} from 'react'
 export default function useSignup() {
     const [successValue , setSuccessValue] = useState(false)
     const [error , setError] = useState(true);
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
     async function signup(name,email,password,image = '') {
         setError(null) ;
 

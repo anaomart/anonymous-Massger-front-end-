@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function ForgotPassword() {
     const [email, setEmail] = useState('');
     const [message  , setMessage] = useState('')
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
     async function handleClick(e) {
         e.preventDefault();
         let response = await fetch(url + 'user/passwordRecovery', {

@@ -8,7 +8,7 @@ export default function SendMessage() {
     const [display ,setDisplay] = useState('none');
     const [message , setMessage] = useState('');
     const [userName, setUserName] = useState('noBody')
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
     const {user} = useAuthContext();
     const {id } = useParams();
     useEffect(()=>{

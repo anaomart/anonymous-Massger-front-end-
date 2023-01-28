@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 export default function Email() {
     const [message , setMessage ] = useState('')
     const {token} = useParams()
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
 
     async function getMessage(){
         

@@ -8,7 +8,7 @@ import useAuthContext from '../hooks/useAuthContext';
 const Home = () => {
     const [button ,setButton] = useState(false);
     const [userMessages , setUserMessages] = useState([])
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
     const {user} = useAuthContext();
     let profileImage = user.profileImage
     async function messages () {

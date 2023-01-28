@@ -14,7 +14,7 @@ const Navbar = () => {
             <ul>
                 {
                     user ? <>
-                        <li className='btn'><Link to='/'>{user.username}</Link></li>
+                        <li className='btn'><Link to='/' style={{width:'fit-content'}}>{user.username}</Link></li>
                         <li className='btn' onClick={handleClick}><Link href='/#'>Logout</Link></li>
                     </> : <>
                         <li className='btn'><Link to='/login'>Login</Link></li>

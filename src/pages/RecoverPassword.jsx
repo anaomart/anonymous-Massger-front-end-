@@ -6,7 +6,7 @@ export default function PasswordRecovery() {
     const {token} = useParams()
     const [message , setMessage] = useState('');
     console.log(token)
-    const url = 'http://localhost:4000/'
+    const url = 'https://anonymous-massger-back-end.onrender.com/'
 
     async function handleClick(e){
         e.preventDefault();
