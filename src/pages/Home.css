@@ -1,0 +1,80 @@
+section {
+    padding:40px;
+    margin:0 auto;
+    text-align:center;
+}
+section .info {
+    background-color:#06b6d4;
+    padding:20px 0;
+    border-radius:10px;
+    width:80%;
+    margin:0 auto;
+    position:relative;
+}
+section .info h3 {
+    font-size:34px;
+    font-weight:500;
+    color:white;
+    text-transform:capitalize;;
+}
+section .info .profile {
+    postition : absolute;
+    margin-top:-65px;
+    /* background-color:red; */
+}
+section .info button {
+    padding:7px 60px;
+    border-radius:10px;
+    border: 2px solid #22d3ee;
+    background-color:white;
+    cursor:pointer;
+    text-align:right;
+    font-size:14px;
+    font-weight:500;
+    transition:0.3s;
+    position:relative;
+}
+section .info button:hover {
+    color:white;
+    background-color:#22d3ee;
+}
+section .info button span {
+    padding-right:10px;
+}
+section .messages {
+    padding:30px;
+    margin:80px auto;
+    width:100wv;
+    min-height:200px;
+    background:#22d3ee;
+    border-radius:10px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:20px;
+}
+.shareBtn{
+    position:relative;
+    /* background-color:red; */
+    transition: all 1s
+
+}
+.share {
+    position: absolute;
+    top: -110%;
+    left: 35%;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    /* position: relative; */
+    text-decoration: underline;
+}
+.share::before{
+    content: "";
+    position: relative;
+    top: 30px;
+    left: 40%;
+    border: 10px solid white;
+    border-color:white transparent transparent transparent;
+}

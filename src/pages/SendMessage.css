@@ -1,0 +1,17 @@
+textarea {
+    width: 50%;
+    margin:50px auto;
+    min-height: 200px;
+    border-radius:20px;
+    border-color:#22d3ee;
+    padding:50px
+}
+.sendMessageBtn {
+    display: flex;
+    padding:10px 80px;
+    margin:10px auto;
+    background-color: #22d3ee;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+}
